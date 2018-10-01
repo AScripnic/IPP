@@ -14,6 +14,7 @@ class Iterator {
 
   next() {
     if (this.index === this.list.length) {
+      this.reset();
       return { done: true };
     }
 
