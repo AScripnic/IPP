@@ -12,7 +12,7 @@ class FunctionaltyDemo {
 
     songs.markAsListened();
 
-    fs.writeFileSync(path.join(__dirname, '../database/result.json'), JSON.stringify(songs.getSongs(), null, 4));
+    fs.writeFileSync(path.join(__dirname, '../database/result.json'), JSON.stringify(songs, null, 4));
   }
 }
 
