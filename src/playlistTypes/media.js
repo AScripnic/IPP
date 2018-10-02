@@ -5,3 +5,5 @@ class Media {
     return []; 
   }
 }
+
+module.exports = Media;
